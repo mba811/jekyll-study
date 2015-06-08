@@ -1,7 +1,7 @@
 # Summary
 
 * [介绍](README.md)
-   * [补充说明](book/addendum.md)
+   * [补充说明](Book/addendum.md)
 * [Jekyll 的安装](Install/README.md)
 * [Jekyll 的配置](Configuration/README.md)
 * [Jekyll 的使用](Usage/README.md)
