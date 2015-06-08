@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "autocover"
+    ],
+    "links": {
+        "sidebar": {
+            "Contact us": "mailto:ztd811@gmail.com"
+        }
+    },
+    "pluginsConfig": {}
+}
