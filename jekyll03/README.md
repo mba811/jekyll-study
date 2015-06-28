@@ -1,8 +1,8 @@
-#Jekyll 的使用
+# 使用
 
 ### 应用
 
-一旦 [安装](http://wiki.11ten.net/Jekyll/jekyll-%E7%9A%84%E5%AE%89%E8%A3%85.html) 好 **jekyll**，建立一个 **Jekyll** 网站通常有以下几个步骤：
+一旦安装好 **jekyll**，建立一个 **Jekyll** 网站通常有以下几个步骤：
 
   1. 建立网站的基本结构
   2. 创建几篇文章，或者从你以前的博客平台 [导入](http://import.jekyllrb.com/docs/home/)
@@ -32,7 +32,7 @@
 
 #### _config.yml
 
-这个文件用来存储 [配置](http://wiki.11ten.net/Jekyll/jekyll-%E7%9A%84%E9%85%8D%E7%BD%AE.html) 文件的数据，其中的大多数选项都能通过命令行中的指令来执行，但是把它们写入配置文件中，你就可以不必去记忆它们了。
+这个文件用来存储配置文件的数据，其中的大多数选项都能通过命令行中的指令来执行，但是把它们写入配置文件中，你就可以不必去记忆它们了。
 
 #### _includes
 
@@ -40,7 +40,7 @@
 
 #### _layouts
 
-该目录用来存放博客文章将会插入的网页布局模板，页面布局基于类似博客平台的“一个接一个”的原则，通过 [YAML 前置数据](http://wiki.11ten.net/Jekyll/jekyll-%E7%9A%84-yaml-%E5%89%8D%E7%BD%AE%E6%95%B0%E6%8D%AE.html) 来选择模板。liquid 标签 `content` 用于在布局页面中插入博客文章的内容。
+该目录用来存放博客文章将会插入的网页布局模板，页面布局基于类似博客平台的“一个接一个”的原则，通过YAML前置数据来选择模板。liquid 标签 `content` 用于在布局页面中插入博客文章的内容。
 
 #### _posts
 
@@ -52,7 +52,7 @@
 
 #### index.html 页面文件和其他的 HTML/Markdown/Textile 文件
 
-**Jekyll** 将会转换头部拥有 [YAML 前置数据](http://wiki.11ten.net/Jekyll/jekyll-%E7%9A%84-yaml-%E5%89%8D%E7%BD%AE%E6%95%B0%E6%8D%AE.html) 数据的所有文件。这个规则对于站点根目录和所有其他目录下的`.html`，`markdown`，`.md` 文件都适用。
+**Jekyll** 将会转换头部拥有YAML前置数据数据的所有文件。这个规则对于站点根目录和所有其他目录下的`.html`，`markdown`，`.md` 文件都适用。
 
 #### 其他文件/目录
 
@@ -69,7 +69,7 @@
 
 如果你打算在前端开发中使用 **jekyll** 服务，你也会需要 `--auto` 选项（既可以通过命令行设置也可以将其写入 _config.yml 配置文件）来查看文件改动。
 
-然后，在浏览器中访问 `http://0.0.0.0:4000`。[这里](http://wiki.11ten.net/Jekyll/jekyll-%E7%9A%84%E9%85%8D%E7%BD%AE.html) 还有更多为你提供的参数选项。
+然后，在浏览器中访问 `http://0.0.0.0:4000`。在上面配置小节里还有更多为你提供的参数选项。
 
 在 **Debian** 或 **Ubuntu** 上，你需要将 `/var/lib/gems/1.8/bin/` 添加到你的 `path` 路径中。
 

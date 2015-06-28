@@ -1,6 +1,4 @@
-#Jekyll 的安装
-
-### 安装
+# 安装
 
 Jekyll 最好的安装方法就是通过 RubyGems 来安装:
     

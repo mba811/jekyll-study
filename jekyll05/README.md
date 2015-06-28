@@ -1,11 +1,13 @@
-Jekyll 会遍历你的站点，来寻找需要处理的文件。任何具有 [YAML 前置数据](http://havee.me/internet/2013-07/jekyll-yaml-front-matter.html) 的文件都将会被处理，每一个这样的文件，**Jekyll** 都会通过 [Liquid 模板系统](http://havee.me/internet/2013-11/jekyll-liquid-designers.html) 使用许多可用的页面变量。下面是一个可用变量的列表。
+# 模板数据
+
+Jekyll 会遍历你的站点，来寻找需要处理的文件。任何具有YAML 前置数据的文件都将会被处理，每一个这样的文件，**Jekyll** 都会通过Liquid 模板系统使用许多可用的页面变量。下面是一个可用变量的列表。
 
 ### 全局变量
 
 |      变量     |       描述    |
 |:-         |:-         |
 |     site      |   全站的信息加 `_config.yml` 文件中的配置选项        |
-|      page     |      这个变量中包含 [YAML 前置数据](http://havee.me/internet/2013-07/jekyll-yaml-front-matter.html)，另外加上两个额外的变量值：url和content。     |
+|      page     |      这个变量中包含 YAML 前置数据，另外加上两个额外的变量值：url和content。     |
 |     content      |   在布局模板文件中，这里变量包含了页面的子视图。这个变量将会把渲染后的内容插入到模板文件中。这个变量不能在文章和页面文件中使用。        |
 |     paginator      |     一旦paginate配置选项被设置了，这个变量才能被使用。      |
 
