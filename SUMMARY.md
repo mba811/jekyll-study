@@ -11,3 +11,4 @@
 * [Liquid设计](jekyll07/README.md)
 * [固定链接](jekyll08/README.md)
 * [使用内置的Sass预处理器](jekyll09/README.md)
+* [更新sitemap.xml](jekyll10/README.md)
